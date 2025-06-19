@@ -1,0 +1,30 @@
+/* styles.css */
+
+/* Кнопки */
+button, .MuiButton-root {
+  cursor: pointer;
+  background-color: #0099ff;
+  border: none;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover, .MuiButton-root:hover {
+  background-color: #4fc3f7;
+  color: white;
+}
+
+/* Меню */
+.MuiMenu-root {
+  transition: opacity 0.3s ease;
+  opacity: 0;
+}
+
+/* Контент */
+#root {
+  transition: opacity 0.5s ease;
+  opacity: 1;
+}
