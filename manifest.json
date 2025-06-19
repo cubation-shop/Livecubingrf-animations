@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Live Cubing Animations",
+  "version": "1.0",
+  "description": "Добавляет плавные анимации и переходы на live.cubingrf.org",
+  "content_scripts": [
+    {
+      "matches": ["https://live.cubingrf.org/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "permissions": []
+}
